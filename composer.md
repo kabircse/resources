@@ -5,4 +5,3 @@
       3. Run php -r "readfile('https://getcomposer.org/installer');" | php
       3.php composer.phar self-update                   
  	php composer.phar install                          
-
