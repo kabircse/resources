@@ -1,5 +1,5 @@
-Redis:-Remote Distionary Server[In memory database like nosql]
----------------------------
+**Redis:-Remote Distionary Server[In memory database like nosql]**
+------------------------------------------------------------------
 
   A. Installation:
     1. https://github.com/kabircse/redis
