@@ -8,4 +8,4 @@
          2.php composer.phar self-update                   
  	        php composer.phar install     
  	        
- #composer public key: f61d9b1e4241af1ed1e41206ca7674eac6a066de
+ #fa49f61d9b1e4241af1ed1e41206ca7674eac6a066de
