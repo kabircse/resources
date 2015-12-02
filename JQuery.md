@@ -24,6 +24,8 @@
         5. event.result -> Contains the last/previous value returned by same element.
         6. off() ->Remove the event for a element.
         7. on() -> Add the event with a element.
+        8. trigger() -> Trigger(add) or occur an event of selected element
+        9.
         9. delegate() ->The delegate attaches one or more event handlers for specified elements that are children of selected                elements and specifies a function to run when the events occur.
             + Event handlers attached using the delegate() method will work for both current and FUTURE elements (like a new                 element created by a script)
         9.event.currentTarget ->It is typically equal to this. Similar to event.delegateTarget.
