@@ -7,7 +7,8 @@
            + select menus: the change event occurs when an option is selected. 
            + Text fields or text areas: the change event occurs when the field loses focus, after the content has been changed.)
         4. event.stopPropagation() ->is used to make sure the event doesn't bubble up the chain on its child or parent element.
-        5. event.preventDefault() ->is used to stop the normal action of an element,a link or on a submit button would stop the             form being submitted, which is a browser default action.
+        5. event.preventDefault() ->is used to stop the normal action of an element,a link or on a submit button would stop the
+            form being submitted, which is a browser default action.
         5. event.target ->which dom element is clicked exactly. used as: event.target.nodeName
         6. focus(),focusin(),focusout(),blur The focusin and focusout events bubble(with parent or child occur event),the focus
             and blur events doesn't. That means that you can use the focusin and focusout on the parent element of a form 
