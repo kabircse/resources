@@ -10,3 +10,5 @@
 2. http://en.leandrosilva.info/tutorial-zf2-doctrine-zfcuser-los
 3. http://www.masterzendframework.com/tutorial/zend-framework-2-servicemanager/
 4. 
+hghghg
+4. http://code.tutsplus.com/articles/team-collaboration-with-github--net-29876
