@@ -12,3 +12,14 @@
 4. 
 hghghg
 4. http://code.tutsplus.com/articles/team-collaboration-with-github--net-29876
+
+
+
+
+
+
+
+nice git turo
+
+http://emmajane.github.io/gitforteams/slides/slides/workshop-oscon.html#/2/4
+http://gitforteams.com/videos/
