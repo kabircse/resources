@@ -1,16 +1,18 @@
 Links:
+CodeIgniter:
   3. https://leanpub.com/practicalcodeigniter3
-  5. https://almsaeedstudio.com/blog/integrate-adminlte-with-laravel
-  7. http://laravel.io/forum/09-21-2015-tutorial-how-to-craft-a-digital-eshop-with-laravel-5
-  8.Laravel user auth: 
-  http://laravelcoding.com/blog/laravel-5-beauty-starting-the-admin-area?tag=L5+Beauty#08-routes
   10. Use github as svn https://github.com/blog/1178-collaborating-on-github-with-subversion  
   11. http://devzone.co.in/codeigniter-free-admin-panel-twitter-bootstrap-3-version2/
-  12. http://georgehk.blogspot.com/2015/04/crud-operations-in-laravel-5-with-mysql.html           ***
-https://scotch.io/tutorials/simple-laravel-crud-with-resource-controllers
 
-Laravel5 Basic series:
-https://laracasts.com/series/laravel-5-fundamentals/episodes/13
+
+
+Laravel5 Basic series:  
+  12. http://georgehk.blogspot.com/2015/04/crud-operations-in-laravel-5-with-mysql.html           ***
+  13. http://learninglaravel.net/create-an-e-commerce-website-with-laravel/link
+  14. https://www.dunebook.com/easily-develop-a-ecommerce-website-with-laravel/
+  15. https://laracasts.com/series/laravel-5-fundamentals/episodes/13
+  5. https://almsaeedstudio.com/blog/integrate-adminlte-with-laravel
+  7. http://laravel.io/forum/09-21-2015-tutorial-how-to-craft-a-digital-eshop-with-laravel-5
 
 Angular Js:
 https://thinkster.io/a-better-way-to-learn-angularjs
