@@ -10,12 +10,13 @@ Laravel Design Pattern:
   https://www.dunebook.com/doing-best-practices-in-laravel/2/
 
 Laravel5 Basic series:  
-  12. http://georgehk.blogspot.com/2015/04/crud-operations-in-laravel-5-with-mysql.html           ***
-  14. https://www.dunebook.com/easily-develop-a-ecommerce-website-with-laravel/                   *
-  15. https://laracasts.com/series/laravel-5-fundamentals/episodes/13
-  5. https://almsaeedstudio.com/blog/integrate-adminlte-with-laravel
-  7. http://laravel.io/forum/09-21-2015-tutorial-how-to-craft-a-digital-eshop-with-laravel-5
-  8.Laravel smart search http://maxoffsky.com/code-blog/laravel-shop-tutorial-3-implementing-smart-search/
+  1. http://laraveldaily.com/10-less-known-but-awesome-laravel-collections-methods/   ****
+    2. http://georgehk.blogspot.com/2015/04/crud-operations-in-laravel-5-with-mysql.html           ***
+    3. https://www.dunebook.com/easily-develop-a-ecommerce-website-with-laravel/                   *
+    4. https://laracasts.com/series/laravel-5-fundamentals/episodes/13
+    5. https://almsaeedstudio.com/blog/integrate-adminlte-with-laravel
+    6. http://laravel.io/forum/09-21-2015-tutorial-how-to-craft-a-digital-eshop-with-laravel-5
+    7.Laravel smart search http://maxoffsky.com/code-blog/laravel-shop-tutorial-3-implementing-smart-search/
 
 Angular Js2:
 https://www.youtube.com/watch?v=_-CD_5YhJTA
@@ -24,8 +25,8 @@ http://learninglaravel.net/laravel-52-and-angularjs-crud-with-search-and-paginat
 
 
 Angular js2 vary basic:
-  Basic:http://code.ciphertrick.com/2016/03/15/angular-2-architecture-development-setup/ **
-  http://campus.codeschool.com/courses/shaping-up-with-angular-js/level/1/section/1/video/1
+  Basic: http://code.ciphertrick.com/2016/03/15/angular-2-architecture-development-setup/ **
+    http://campus.codeschool.com/courses/shaping-up-with-angular-js/level/1/section/1/video/1
 
 Sample Angular Code:
   http://builtwithangular2.com/
