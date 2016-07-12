@@ -3,4 +3,5 @@
 1. #Representation#
   Make nice Slide: https://www.mindmeister.com/
 
-Link:
+hanafi-shafi-muslim:
+  https://www.abeautifulsite.net/i-switched-from-tabs-to-spaces-and-havent-looked-back
