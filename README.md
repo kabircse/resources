@@ -2,9 +2,8 @@
 ===========
 1. #Representation#
   Make nice Slide: https://www.mindmeister.com/
+2. Asus(Asus X453MA Intel Celeron Dual Core (Black))-24000tk->http://laptoppriceinbd.com/index.php?route=product/product&path=20&product_id=50
 
-hanafi-shafi-muslim:
-  https://www.abeautifulsite.net/i-switched-from-tabs-to-spaces-and-havent-looked-back
 Learn How to Develop ERP (Source Code)
 
 Nice ERP DEMO: onclouderp.com, https://demo.onclouderp.com
