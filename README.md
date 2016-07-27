@@ -13,3 +13,6 @@ Design Pattern: http://www.youtube.com/playlist?list=PLF206E906175C7E07
 
 
 REst:http://www.restapitutorial.com/lessons/whatisrest.html
+
+
+http://www.slideshare.net/darwinbiler/building-large-scale-apps-with-laravel-4
