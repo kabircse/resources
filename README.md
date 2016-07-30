@@ -12,3 +12,5 @@
 4. Learn How to Develop ERP (Source Code)
 5. Nice ERP DEMO: onclouderp.com, https://demo.onclouderp.com
 6. A Simple RESTful API using PHP & CodeIgniter 
+
+http://code.tutsplus.com/tutorials/28-html5-features-tips-and-techniques-you-must-know--net-13520
