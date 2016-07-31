@@ -23,7 +23,7 @@
     	<input type="hidden" name="_token" value="{{ csrf_token() }}"
     
     8. Form with html collective
-    	{!! Form::open(['route.create']) !!}
+    	{!! Form::open(['route' => 'contacts.store', 'files'=>true]) !!}//contacts is a route name here
     
     	{!! Form::input('student_name', null, ['class'=>'form-control']) !!}
     	{!! Form::email('email', null, ['class'=>'form-control'])!!}
