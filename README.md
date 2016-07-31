@@ -14,3 +14,13 @@
 6. A Simple RESTful API using PHP & CodeIgniter 
 
 http://code.tutsplus.com/tutorials/28-html5-features-tips-and-techniques-you-must-know--net-13520
+
+
+<?php
+function spl_autoload_register(function($class){
+    return $class.'php';
+});
+
+$foo = new foo;
+$bar = new Bar;
+$foo->getdata();
