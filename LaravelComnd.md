@@ -27,3 +27,6 @@
     
     	{!! Form::input('student_name', null, ['class'=>'form-control']) !!}
     	{!! Form::email('email', null, ['class'=>'form-control'])!!}
+    
+    9. Validate input
+        $this->validate($request, $rules);
