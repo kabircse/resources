@@ -19,3 +19,5 @@
 
 
 How to make a rest api:https://www.youtube.com/watch?v=9cmEEfNWUeI#t=0.115034
+
+[using raw php] https://www.leaseweb.com/labs/2015/10/creating-a-simple-rest-api-in-php/
