@@ -32,9 +32,11 @@
             $this->validate($request, $rules);
             
         10. Common php artisan command:
-            php artisan view:clear, php artisan cache:clear, php artisan config:clear,
-            php artisan config:cache, php artisan view:cache
-            php artisan optimize
+            Before Live/Production:
+                php artisan key:generate    
+                php artisan view:clear, php artisan cache:clear, php artisan config:clear,
+                php artisan config:cache, php artisan view:cache
+                php artisan clear-compiled, php artisan optimize                
             
          11. For production remove development packages from /vendor   
             composer update --no-dev --prefer-dist
