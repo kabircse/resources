@@ -36,7 +36,10 @@
                 php artisan key:generate    
                 php artisan view:clear, php artisan cache:clear, php artisan config:clear,
                 php artisan config:cache, php artisan view:cache
-                php artisan clear-compiled, php artisan optimize                
+                php artisan clear-compiled, php artisan optimize, php artisan optimize --force                
             
          11. For production remove development packages from /vendor   
             composer update --no-dev --prefer-dist
+            
+         12. Give your application a name
+                php artisan app:name YourAppName
