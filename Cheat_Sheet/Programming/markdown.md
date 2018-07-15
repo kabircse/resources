@@ -16,15 +16,27 @@
    * Right arrow (``` > ```) for block quote
 
    ### Emphasis
+   #### Italic Text:
    ```
     *This text will be italic*
     _This text will be italic also_
    ``` 
-    *This text will be italic*
+   *This text will be italic*
+    
+   _This text will be italic also_
 
-    _This text will be italic also_
+   * Single star (*) or underscore(_) for italic text with ending star/underscore
+    
+   #### Bold Text
+      **This text will be bold**
+      __This text will be bold also__
 
-    * Single star (*) or underscore(_) used for bold text with ending star/underscore
+   **This text will be bold**
+   
+   __This text will be bold also__
+
+   * Double star (**) or underscore(_ _) for bold text with ending star/underscore
+    
 
    ### Lists
       * Item 1
