@@ -40,10 +40,6 @@
                 php artisan clear-compiled
                 composer install --optimize-autoloader --no-dev
             After Live:            
-                php artisan config:cache, php artisan route:cache
-                   
-         12. For production remove development packages from /vendor   
-            composer update --no-dev --prefer-dist
-            
-         13. Give your application a name
+                php artisan config:cache, php artisan route:cache            
+         12. Give your application a name
                 php artisan app:name YourAppName
