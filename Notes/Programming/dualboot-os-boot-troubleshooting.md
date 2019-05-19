@@ -1,4 +1,4 @@
-##After installing/upgrading os of dual boot system. One of os boot/grub load removed.
+## After installing/upgrading os of dual boot system. One of os boot/grub load removed.
 a. Linux missing solution:
    1. Using cd-rom/usb goto live os.
    2. Connect internet to install boot-repair.
