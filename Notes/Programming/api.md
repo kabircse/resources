@@ -12,3 +12,8 @@
       communication whereas API may use any style for communication.
       4. A Web service always needs a network for its operation whereas an API doesn’t need
       a network for its operation.
+
+# Types:
+   1. SOAP WEB SERVICE: SOAP is based on transferring XML data. SOAP is a protocol
+   2. REST WEB SERVICE: Any web service that is defined on the principles of REST can be called a RestFul web service.
+                       Rest is a architecture/design. 
