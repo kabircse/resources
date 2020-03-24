@@ -12,3 +12,7 @@ ionic build
 2. plugin-proposal-numeric-separator not found
 Solution:
 npm install --save-dev @babel/plugin-proposal-numeric-separator
+
+3.Error | Could not find plugin "proposal-numeric-separator" | Generating ES5 bundles
+Solution:
+"@babel/compat-data": "~7.8.0" to devDependencies.
