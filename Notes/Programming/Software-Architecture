@@ -11,3 +11,6 @@
 Relational databases are built to store relationships
 ##  When to pick a NoSQL database : When you need to scale fast because there are a large number of read-write operations in a system and when dealing with a large amount of data.
 NoSQL databases fit best in these scenarios. Since they have the ability to add nodes on the fly, they can handle more concurrent traffic and large amounts of data with minimal latency.
+
+# Service:
+Service: A service is a remotely available resource that can respond to requests.  
