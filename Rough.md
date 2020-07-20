@@ -8,7 +8,7 @@ Software Architecture:
 1. How to decide that my project needs microservice architecture ?
 2. Which microservice architecture is best and selection criteria ?
 3. API document first/code first or booth accordingly ?
-4. Mention the required steps/process serially to after getting a new software requirement ?
+4. Mention the required steps/process serially to after getting a new software requirement for successfully develp and delivery the apps ?
 5. How to design/develop modular based application ?
 
 When you will choose microservice:
