@@ -39,7 +39,9 @@
                 php artisan view:clear, php artisan cache:clear, php artisan config:clear,             
                 php artisan clear-compiled
                 composer install --optimize-autoloader --no-dev
+                composer dump-autoload -o
             After Live:            
                 php artisan config:cache, php artisan route:cache            
+                composer dump-autoload -o
          12. Give your application a name
                 php artisan app:name YourAppName
