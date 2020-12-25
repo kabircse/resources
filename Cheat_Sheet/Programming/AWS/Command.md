@@ -33,7 +33,7 @@
 ##### 11. Download some files from s3 to local and delete mismatch files:
     aws s3 sync s3://bucketName .    
 
-## B. S3Api
+## C. S3Api
 ##### 1. list bucket:
     aws s3api list-buckets    
 ##### 2. list files in a bucket with a format and qery by json key:
