@@ -45,3 +45,15 @@
                 composer dump-autoload -o
          12. Give your application a name
                 php artisan app:name YourAppName
+
+Laravel request validation for api/web smart single way for all:
+Write this function to your request class after rules()
+
+        public function failedValidation(Validator $validator)
+        {
+           throw new HttpResponseException(response()->json([
+             'success'   => false,
+             'message'   => 'Validation errors',
+             'data'      => $validator->errors()
+           ]));
+        }
