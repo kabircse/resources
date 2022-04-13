@@ -7,7 +7,7 @@
       ``` git reset fileName          # or git remove --cached fileName  then ```  
       ``` echo fileName >> .gitignore   # add this file to gitignore ```
       
-  3. Misspelled commit message with previous commit   
+  3. Misspelled previous commit message with a new commit message
     ```git commit --amend -m "updated commit message" ```    
   
   4. Commit with lastest commit message   
