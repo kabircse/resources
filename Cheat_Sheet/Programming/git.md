@@ -15,7 +15,7 @@
       
   5. Undo last commit  
       ``` git reset HEAD^2          # undo last 2 commits, but keep changes   ```   
-      ```git reset --hard HEAD^2    # undo last 2 commits, but remove changes ```
+      ```git reset --hard HEAD^2    # undo last 2 commits, but remove changes ```   
       ```git push origin -f #force to push the changes to remote```
       
    6. Check git logs   
