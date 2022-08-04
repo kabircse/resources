@@ -45,3 +45,52 @@
   
   10. Search deleted files in commits history  
       ```git log --diff-filter=D --summary | grep delete```
+
+  11. Git alias
+      ```
+      /users/pc name/.gitconfig
+      [alias]
+      gt = git
+      st = status
+      pl = pull
+      co = checkout
+      br = branch
+      a = add
+      aa = add .
+      ci = commit
+      ps = push
+      
+      /users/pc name/.bashrc:
+      alias gam='git commit --amend'
+      alias gt=git
+      alias ga='git add'
+      alias gaa='git add --all'
+      alias gb='git branch'
+      alias gba='git branch -a'
+      alias gbl='git blame -b -w'
+      alias gbnm='git branch --no-merged'
+      alias gbr='git branch --remote'
+      alias gc='git commit'
+      alias gcob='git checkout -b'
+      alias gcf='git config --list'
+      alias gco='git checkout'
+      alias gd='git diff'
+      alias gdca='git diff --cached'
+      alias gdtc='git difftool --cached'
+      alias gdw='git diff --word-diff'
+      alias gf='git fetch'
+      alias gpl='git pull'
+      alias gm='git merge'
+      alias gps='git push'
+      alias grh='git reset HEAD'
+      alias grhh='git reset HEAD --hard'
+      alias gs='git status'
+      alias gsta='git stash'
+      alias gstaa='git stash apply'
+      alias gstd='git stash drop'
+      alias gstl='git stash list'
+      alias gstp='git stash pop'
+      alias wip='git add . && git commit -m "WIP"'
+      alias nowip='git reset HEAD~'  
+      ```
+       
