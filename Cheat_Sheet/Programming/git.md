@@ -10,7 +10,7 @@
   3. Misspelled previous commit message with a new commit message
     ```git commit --amend -m "updated commit message" ```    
   
-  4. Commit with lastest commit message   
+  4. Commit with latest commit message   
       ```git commit -m --ammend --no-edit ```
       
   5. Undo last commit  
@@ -23,8 +23,14 @@
       
    7. Undo pushed commit to remote   
       ```git revert head #head indicate latest commit pointer, it revert last commit with a message```
+    or
+      ```git revert commit_hash #commit_hash hash of a commit need to revert. Then change commit message. After then press esc then write :wq (write and quit).```
   
    8. Undo multiple commits   
+      ```git revert HEAD~<number_of_commits>..HEAD #number_of_commits indicate how many commits need to revert from top.
+For preventing commit msg add --no-commit after the command```
+or
+
     ```git rebase -i aeid5 (HashKey) #it will remove all latest commit after this HashKey commit (HashKey is the commit has key)```
     
     ```
