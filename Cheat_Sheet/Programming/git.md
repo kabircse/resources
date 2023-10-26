@@ -65,6 +65,18 @@ Then rename pick to d for drop as
     
 After these changes press first ESC, then :wq! . After this another prompt will open just press ESC then :wq!
     It will move the head to aeid5 and the commit message will be this also.
+
+(c). Cherry-pick: Take a commit from another branch to the current branch.
+
+main branch: A (head) #Current branch
+
+dev branch: C->D->E (head) #Another branch
+
+     git cherry-pick <commit-hash> #commit-hash is the commit of the dev branch here (D)
+
+After cherry pick D to the main branch from the dev branch as
+main branch: A->D (head)
+    
      
   9. Search a deleted file in the commit history:  
       ```git log --all **/test.php*```
