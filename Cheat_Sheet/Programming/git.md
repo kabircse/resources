@@ -1,16 +1,16 @@
 # Git:
-  1. Add files to stage  
+  1. Add files to the stage  
     ```git add . #add all files to git stage or```
     ```git add --all ```
       
-  2. Remove a file from git stage, but keep in file system  
+  2. Remove a file from the git stage, but keep it in the file system  
       ``` git reset fileName          # or git remove --cached fileName  then ```  
       ``` echo fileName >> .gitignore   # add this file to gitignore ```
       
   3. Misspelled previous commit message with a new commit message
     ```git commit --amend -m "updated commit message" ```    
   
-  4. Commit with latest commit message   
+  4. Commit with the latest commit message   
       ```git commit -m --ammend --no-edit ```
       
   5. Undo last commit  
@@ -22,21 +22,21 @@
       ```git log --oneline ```   
       
    7. Undo pushed commit to remote   
-      ```git revert head #head indicate latest commit pointer, it revert last commit with a message```
+      ```git revert head #head indicate latest commit pointer, it reverts last commit with a message``
     or
-      ```git revert commit_hash #commit_hash hash of a commit need to revert. Then change commit message. After then press esc then write :wq (write and quit).```
+      ```git revert commit_hash #commit_hash hash of a commit need to revert. Then change the commit message. After then press ESC then write :wq (write and quit).```
   
    8. Undo multiple commits   
 
       ```git revert HEAD~<number_of_commits>..HEAD #number_of_commits indicate how many commits need to revert from top. ```
 
-For preventing commit msg add --no-commit after the command```
+For preventing commit message add --no-commit after the command```
 or
 
     ```git rebase -i aeid5 (HashKey) #it will remove all latest commit after this HashKey commit (HashKey is the commit has key)```
     
     ```
-    It will prompt all commit afer the HashKey with a message as 
+    It will prompt all commits after the HashKey with a message as 
       "pick ecder2 ....
       d beid3 ....
       pick aeid5 ....
@@ -48,7 +48,7 @@ or
       "    
     ```
 
-  9. Search a deleted file in commit history:  
+  9. Search a deleted file in the commit history:  
       ```git log --all **/test.php*```
   
   10. Search deleted files in commits history  
