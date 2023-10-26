@@ -27,7 +27,9 @@
       ```git revert commit_hash #commit_hash hash of a commit need to revert. Then change commit message. After then press esc then write :wq (write and quit).```
   
    8. Undo multiple commits   
-      ```git revert HEAD~<number_of_commits>..HEAD #number_of_commits indicate how many commits need to revert from top.
+
+      ```git revert HEAD~<number_of_commits>..HEAD #number_of_commits indicate how many commits need to revert from top. ```
+
 For preventing commit msg add --no-commit after the command```
 or
 
