@@ -22,32 +22,50 @@
       ```git log --oneline ```   
       
    7. Undo pushed commit to remote   
-      ```git revert head #head indicate latest commit pointer, it reverts last commit with a message``
-    or
-      ```git revert commit_hash #commit_hash hash of a commit need to revert. Then change the commit message. After then press ESC then write :wq (write and quit).```
+  (a).  ``` git revert head 
+           #head indicates latest commit pointer, it reverts the last commit with the message ```
+
+      (b).  ``` git revert commit_hash 
+           #commit_hash hash of a commit need to revert. Then change the commit message. 
+           After that press, ESC then write :wq! (write and quit). ``` 
   
-   8. Undo multiple commits   
+   9. Undo multiple commits   
+      
+      (a). ``` git revert HEAD~<number_of_commits>..HEAD #number_of_commits indicates how many commits need to revert from the top. ```
 
-      ```git revert HEAD~<number_of_commits>..HEAD #number_of_commits indicate how many commits need to revert from top. ```
+        To prevent a commit message add --no-commit after the command
+   
+      (b). ``` git rebase -i aeid5 (HashKey) #it will remove all latest commit after this HashKey commit (HashKey is the commit has key) ```
+      
+It will prompt all commits after the HashKey with a message as 
 
-For preventing commit message add --no-commit after the command```
-or
-
-    ```git rebase -i aeid5 (HashKey) #it will remove all latest commit after this HashKey commit (HashKey is the commit has key)```
+      pick ecder2 ....
+      pick beid3 ....
+      pick aeid5 ....
+     
+Then rename pick to d for drop as
+      
+      d ecder2 ....
+      d beid3 ....
+      pick aeid5 ....
     
-    ```
-    It will prompt all commits after the HashKey with a message as 
-      "pick ecder2 ....
-      d beid3 ....
-      pick aeid5 ....
-      "    
-      Then rename pick to d for drop as
-      "d ecder2 ....
-      d beid3 ....
-      pick aeid5 ....
-      "    
-    ```
-
+   
+For deleting a commit but keep the commit  message to the previous one as
+ 
+    
+     pick ecder2 ....
+     pick beid3 ....
+     pick aeid5 ....
+     
+Then rename pick to d for drop as
+      
+      pick ecder2 ....
+      squash beid3 ....
+      squash aeid5 ....    
+    
+After these changes press first ESC, then :wq! . After this another prompt will open just press ESC then :wq!
+    It will move the head to aeid5 and the commit message will be this also.
+     
   9. Search a deleted file in the commit history:  
       ```git log --all **/test.php*```
   
