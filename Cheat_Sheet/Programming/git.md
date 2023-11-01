@@ -86,7 +86,8 @@ main branch: A->D (head)
 
   11. Git alias
       ```
-      /users/pc name/.gitconfig
+     ** /users/pc name/.gitconfig**
+
       [alias]
       gt = git
       st = status
@@ -98,7 +99,8 @@ main branch: A->D (head)
       ci = commit
       ps = push
       
-      /users/pc name/.bashrc:
+      **/users/pc name/.bashrc:**
+
       alias gam='git commit --amend'
       alias gt=git
       alias ga='git add'
