@@ -2,7 +2,7 @@
 ## [Notes](./Programming/Notes/)
 1. [API](./Programming/Notes/api.md) 
 2. [AWS](./Programming/Notes/AWS/)
-3. [DevOps](./Programming/Notes/DevOps)
+3. [DevOps](./Programming/Notes/DevOps.md)
 4. [Dual OS Boot Troubleshoot](./Programming/Notes/dualboot-os-boot-troubleshooting.md)
 5. [GIT](./Programming/Notes/git.md)
 6. [git ignore](./Programming/Notes/gitignore.md)
@@ -24,7 +24,12 @@
 22. [Write Clean Code](./Programming/Notes/write-clean-code.md)
 23. [XAMPP troubleshot](./Programming/Notes/xampp-apache-troubleshoot.md)
 24. [Docker](./Notes/Docker.md)
+25. [Design Principle](https://github.com/kabircse/Design-Principle-Pattern/tree/master/DesignPrinciple)
+26. [Design Pattern](https://github.com/kabircse/Design-Principle-Pattern/tree/master/DesignPattern)
+
+
 ## [Workshop](./Programming/Workshop/)
-1. [Docker with wordpress, mysql and phpmyadmin](../Programming/Workshop/Docker/WP-MySQL-PHPMyAdmin/)
+1. [Docker with wordpress, mysql and phpmyadmin](../Programming/Workshop/Docker/WP-MySQL-PHPMyAdmin)
+   
 ## [Links](./Programming/Links/)
 
