@@ -4,7 +4,7 @@ version: '3.1'
 
 services:
   # mysql database
-  db:
+  mysql:
     image: mysql:8.2
     restart: always
     environment:
@@ -15,20 +15,20 @@ services:
     networks:
       - wp_network
     volumes:
-      - db_data:/var/lib/mysql
+      - mysql_data:/var/lib/mysql
 
   # wordpress
   wordpress:
     image: wordpress:6.4
-    entrypoint: 
-      WORDPRESS_DB_HOST: db:3306
-      WORDPRESS_DB_USER: username
+    environment: 
+      WORDPRESS_DB_HOST: mysql:3306
+      WORDPRESS_DB_USER: user
       WORDPRESS_DB_PASSWORD: password
       WORDPRESS_DB_NAME: wordpress
     ports:
       - 8000:80
     depends_on:
-      - db
+      - mysql
     restart: always
     volumes: ["./:/var/www/html"]
     networks:
@@ -38,18 +38,26 @@ services:
   # phpmyadmin
   phpmyadmin:
     image: phpmyadmin:5.2
-    entrypoint:
-      PMA_HOST: db
+    environment:
+      PMA_HOST: mysql
       MYSQL_ROOT_PASSWORD: rootpassword
     ports:
       - 8080:80
     networks:
       - wp_network
     depends_on:
-      - db
+      - mysql
     restart: always
-    
+
+# Shared among the services
 networks:
   wp_network:
 volumes:
-  db_data:
+  mysql_data:
+
+
+# Run Instruction
+# docker compose up -d //-d or --detach - run application in the background
+# phpadmin: http://localhost:8080
+# wordpress: http://localhost:8000
+
