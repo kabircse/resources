@@ -30,7 +30,7 @@ services:
     depends_on:
       - mysql
     restart: always
-    volumes: ["./:/var/www/html"]
+    volumes: ["./app/:/var/www/html"]
     networks:
       - wp_network
     
@@ -55,9 +55,4 @@ networks:
 volumes:
   mysql_data:
 
-
-# Run Instruction
-# docker compose up -d //-d or --detach - run application in the background
-# phpadmin: http://localhost:8080
-# wordpress: http://localhost:8000
 
