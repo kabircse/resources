@@ -1,6 +1,6 @@
 # Programming
 ## [Notes](./Programming/Notes/)
-1. [API](./Programming/Notes/api.md) 
+1. [API](/Programming/Notes/api.md) 
 2. [AWS](./Programming/Notes/AWS/)
 3. [DevOps](./Programming/Notes/DevOps.md)
 4. [Dual OS Boot Troubleshoot](./Programming/Notes/dualboot-os-boot-troubleshooting.md)
