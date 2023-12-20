@@ -1,0 +1,55 @@
+# YAML is a human-readable data-serialization language. It is commonly used for configuration files and in applications where data is being stored or transmitted. 
+
+version: '3.1'
+
+services:
+  # mysql database
+  db:
+    image: mysql:8.2
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_USER: user
+      MYSQL_PASSWORD: password
+      MYSQL_DATABASE: wordpress
+    networks:
+      - wp_network
+    volumes:
+      - db_data:/var/lib/mysql
+
+  # wordpress
+  wordpress:
+    image: wordpress:6.4
+    entrypoint: 
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_USER: username
+      WORDPRESS_DB_PASSWORD: password
+      WORDPRESS_DB_NAME: wordpress
+    ports:
+      - 8000:80
+    depends_on:
+      - db
+    restart: always
+    volumes: ["./:/var/www/html"]
+    networks:
+      - wp_network
+    
+
+  # phpmyadmin
+  phpmyadmin:
+    image: phpmyadmin:5.2
+    entrypoint:
+      PMA_HOST: db
+      MYSQL_ROOT_PASSWORD: rootpassword
+    ports:
+      - 8080:80
+    networks:
+      - wp_network
+    depends_on:
+      - db
+    restart: always
+    
+networks:
+  wp_network:
+volumes:
+  db_data:
