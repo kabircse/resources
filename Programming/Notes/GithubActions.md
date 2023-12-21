@@ -8,35 +8,35 @@ Create a file inside a node project .github/workflows/main.yml
 ```yaml
 name: Node.js CI  	# Name of the workflow
 
-on:  				# Specify the event that trigger the workflow. In this case it triggers on every push to the main branch
+on:  			# Specify the event that triggers the workflow. In this case, it triggers on every push to the main branch
 							
   push:
     branches:
       - main
 
-jobs:						# Contains a list of jobs need to be executed
-  build:					# The name of the job
-    runs-on: ubuntu-latest	# Specify the OS for the job. For this lastest ubuntu OS
+jobs:				# Contains a list of jobs that need to be executed
+  build:			# The name of the job
+    runs-on: ubuntu-latest	# Specify the OS for the job. For this latest Ubuntu OS
 
-    steps:					# Actions to perform within the job
-    - uses: actions/checkout@v2	  #Action that checks out respository's code
+    steps:			# Actions to perform within the job
+    - uses: actions/checkout@v2	#Action that checks out the repository's code
 
     - name: Setup Node.js
       uses: actions/setup-node@v2 #Action to setup the Nodejs
-      with:						  # Specify the installing app version
-        node-version: '16' 		  # Choose the version you need
+      with:			  # Specify the installing app version
+        node-version: '16' 	  # Choose the version you need
 
     - name: Install dependencies
-      run: npm install			  # Install the app
+      run: npm install	          # Install the app
 
     - name: Run tests
-      run: npm test				  # Run tests	
+      run: npm test		  # Run tests	
 ```
 
 
 ### 2. Laravel Application:
 
-Create a file inside a laravel project .github/workflows/main.yml
+Create a file inside a Laravel project .github/workflows/main.yml
 
 ```yaml
 name: Laravel CI/CD
@@ -80,8 +80,8 @@ jobs:
         HOST: ${{ secrets.SERVER_HOST }}
         USERNAME: ${{ secrets.SERVER_USERNAME }}
         PASSWORD: ${{ secrets.SERVER_PASSWORD }}
-        source: ./                          #source directory that need to be transferred/deployed to the target server.
-        target: /var/www/html/your-app      #Where project will be deployed on the server
+        source: ./                          #source directory that needs to be transferred/deployed to the target server.
+        target: /var/www/html/your-app      #Where the project will be deployed on the server
 
 # Add more steps as needed for your specific deployment setup
 
