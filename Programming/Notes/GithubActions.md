@@ -21,7 +21,7 @@ jobs:				# Contains a list of jobs that need to be executed
     steps:			# Actions to perform within the job
     - uses: actions/checkout@v2	#Action that checks out the repository's code
 
-    - name: Setup Node.js
+    - name: Setup Node.js         # name is optional to show in the output, instead - uses can use directly
       uses: actions/setup-node@v2 #Action to setup the Nodejs
       with:			  # Specify the installing app version
         node-version: '16' 	  # Choose the version you need
