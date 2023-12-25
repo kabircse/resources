@@ -2,7 +2,7 @@
 **GitHub Actions:** A feature within GitHub that enables you to automate software development workflows, such as testing, building, and deploying code.
 
 ## Sample GitHub Actions yml
-### 1. Node.js application:
+### 1. [React App with Node.js application](/Programming/Workshop/GithubActions/ReactApp/):
 Create a file inside a node project .github/workflows/main.yml
 
 ```yaml
@@ -34,7 +34,7 @@ jobs:				# Contains a list of jobs that need to be executed
 ```
 
 
-### 2. Laravel Application:
+### 2. [Laravel Application](/Programming/Workshop/GithubActions/LaravelApp/):
 
 Create a file inside a Laravel project .github/workflows/main.yml
 
