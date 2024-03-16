@@ -95,3 +95,5 @@ Position property specifies the type of positioning method used for an element (
 4. fixed: The element is positioned relative to the browser window. it's fixed position on the screen.
 5. sticky: The element is positioned based on the user's scroll position.
 A sticky element toggles between relative and fixed, depending on the scroll position.
+
+Example: https://jsbin.com/nelezov/1
