@@ -76,11 +76,14 @@
         }
    ```   
 
-6. Width Layout: A layout that has a predefined fixed/percentage width for elements. Especially useful for a sidebar. For better design width layout is used in the other designs.
+6. Width Layout: A layout has a predefined fixed/percentage width for elements. Especially useful for a sidebar. For better design width layout is used in the other designs.
    ```css
+        .container {
+            width: 1200px; //100%;
+        }
         @media (max-width: 768px) {
             .container {
-                width: 540px;// 8.9%;
+                width: 540px; //8.9%;
             }
         }
    ```   
