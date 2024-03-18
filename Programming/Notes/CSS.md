@@ -1,7 +1,7 @@
 # CSS:
 
 ## Layout: There are 4 layouts in css.
-1. Normal layout: The default layout it's just content default flow.
+1. Normal layout: The default layout it's just the content default flow.
     ```html
     <div>
         <p>First paragraph</p>
@@ -76,14 +76,23 @@
         }
    ```   
 
+6. Width Layout: A layout that has a predefined fixed/percentage width for elements. Especially useful for a sidebar. For better design width layout is used in the other designs.
+   ```css
+        @media (max-width: 768px) {
+            .container {
+                width: 540px;// 8.9%;
+            }
+        }
+   ```   
+
 ## Opacity:
 Opacity: Controls the transparency level of an element. Values from 0 to 1;
 
-Makes the containing element opaque/transparent so that background element can be visible a little bit according to the opacity value. 1 no visible.
+Makes the containing element opaque/transparent so that the background element can be visible a little bit according to the opacity value. 1 no visible.
 
 ## z-index: 
-z-index: Specifies the stack order of an element according to value. Max value containing element show on top.
-It only works on positioned elements (absolute,relative,fixed, sticky) and flex items.
+z-index: Specifies the stack order of an element according to value. A max value containing an element is shown on top.
+It only works on positioned elements (absolute, relative, fixed, sticky) and flex items.
 
 Example: https://jsbin.com/yomatuw/1
 
