@@ -1,0 +1,23 @@
+/* file import */
+
+@import 'resets';
+@import 'variables';
+@import 'mixins';
+@import 'utility';
+@import 'components/components';
+@import 'pages/pages';
+
+html,
+body {
+    font-family: $base-font-family;
+    font-size: $base-font-size;
+    background-color: #ffffff;
+}
+
+
+// body {
+//     //background-color: $primary-color;
+//     //padding: $spacing-small;
+//     //min-height: 100vh;
+//     //@include flex('center');
+// }

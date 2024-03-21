@@ -1,0 +1,14 @@
+// Footer styles
+.footer {
+    background-color: #000;
+    color: white;
+    padding: 20px;
+    // height: 50vh;
+    @include respond-to($mq-small) {        
+        flex-direction: column;
+        align-items: flex-start;
+        div {    
+            padding: 10px;
+        }
+    }
+}

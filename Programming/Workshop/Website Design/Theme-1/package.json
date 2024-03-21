@@ -1,0 +1,18 @@
+{
+  "name": "theme",
+  "version": "1.0.0",
+  "description": "SCSS to css file conversion using sass package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "style": "sass -w assets/scss/style.scss:assets/css/style.css",
+    "min": "sass -w assets/scss/style.scss:assets/css/style.min.css --style compressed",
+    "dev": "npm-run-all --parallel style min"
+  },
+  "keywords": [],
+  "author": "Kabir Hosssain",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.72.0"
+  }
+}

@@ -1,0 +1,66 @@
+// Colors
+$primary-color: #DB4444;
+$secondary-color: #2ecc71;
+$primary-accent-color: #ff5722;
+$secondary-accent-color: #ff5722;
+$primary-text-color: #33333333;
+$secondary-text-color: #3333;
+$primary-link-color: #007bff;
+$secondary-link-color: #007bff;
+
+// Fonts
+$base-font-family: Arial, sans-serif;
+$heading-font-family: 'Roboto', sans-serif;
+$base-font-size: 16px;
+$heading-font-size: 24px;
+
+// Spacing
+$spacing-small: 10px;
+$spacing-medium: 20px;
+$spacing-large: 30px;
+
+// Breakpoints
+$breakpoint-small: 576px;
+$breakpoint-medium: 768px;
+$breakpoint-large: 992px;
+$breakpoint-xlarge: 1200px;
+
+// Borders
+$border-width: 1px;
+$border-radius: 4px;
+
+// Shadows
+$box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+// Z-index
+$z-index-modal: 1000;
+$z-index-dropdown: 500;
+$z-index-header: 100;
+
+// Animation
+$animation-duration: 0.3s;
+$animation-easing: ease;
+
+// Grid
+$grid-columns: 12;
+$grid-gutter: 20px;
+
+// Forms
+$input-border-width: 1px;
+$input-border-color: #ccc;
+$input-border-radius: 4px;
+
+// Media queries
+$mq-small: "only screen and (max-width: #{$breakpoint-small})";
+$mq-medium: "only screen and (min-width: #{$breakpoint-medium})";
+$mq-large: "only screen and (min-width: #{$breakpoint-large})";
+$mq-xlarge: "only screen and (min-width: #{$breakpoint-xlarge})";
+
+// Colors
+$red: #ff0000;
+$green: #008000;
+$blue: #0000ff;
+$yellow: #ffff00;
+$gray: #808080;
+$golden: #FFAD33;
+$white: #ffffff

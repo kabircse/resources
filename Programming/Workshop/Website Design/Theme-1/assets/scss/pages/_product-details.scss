@@ -1,0 +1,107 @@
+.product-details {
+    margin-top: 40px;
+
+    @include respond-to($mq-small) {        
+        margin-top: 20px;
+        flex-direction: column-reverse;
+    }
+    
+    .product-images {
+        flex: 1;
+
+        @include respond-to($mq-small) {
+            display: flex;
+        }
+    }
+    .product-img {
+        margin-bottom: 6px;
+        margin-left: 5px;
+        margin-right: 5px;
+        cursor: pointer;
+    }
+
+    .product-image {
+        flex: 3;
+
+        margin:0 10px;
+        @include respond-to($mq-small) {
+            margin:15px 10px;
+        }
+    }
+    .product-description {
+        flex:3;
+        
+        margin: 0 10px;
+        .product-title {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .in-stock {
+            color: #00FF66;
+        }
+        .product-price {
+            font-size: 24px;
+            margin: 20px 0;
+        }
+        .product-notes{
+            font-size: 14px;
+            text-align: left;
+            justify-content: left;
+        }
+         .variations {            
+            margin-top: 25px;
+         }
+        .variations div {
+            margin: 20px 0;
+            margin-top: 25px;
+
+            @include respond-to($mq-small) {    
+                margin: 10px 0;
+                margin-top: 10px;
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .buy-now {
+                margin-right: 30px;
+            }
+        }
+        .size {
+            border: 1px solid black;
+        }
+        .btn-negative, .btn-positive {
+            border: 1px solid black;
+        }
+        input.qty {
+            margin: 0 -5px;
+            text-align: center;
+        }
+        .delivery {
+            display: flex;
+        }
+        .delivery:first-child {            
+            border-bottom: 1px solid #000000;
+        }
+        .icon {
+            flex: 1;
+        }
+       
+        .delivery-desc {
+            flex: 6;
+            margin-bottom: 10px;
+        } 
+        
+        .delivery-policy {
+            flex: 6;
+            margin-top: 10px;
+        }
+        .delivery-info {
+            margin-top: 45px;
+        }
+        .hr {
+            margin: 30px 0;
+        }
+    }
+}
+.breadcump-box {
+    margin-top: 30px;
+}

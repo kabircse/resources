@@ -1,0 +1,7 @@
+// Main content styles
+.main-content {
+    padding: 20px 80px;
+    @include respond-to($mq-small) {
+        padding: 10px 5px;
+    }
+}
